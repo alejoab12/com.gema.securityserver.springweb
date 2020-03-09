@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "gema.oauth",
+      "type": "com.gema.autentication.security.config.SecurityConfigOauth",
+      "sourceType": "com.gema.autentication.security.config.SecurityConfigOauth"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gema.oauth.application-config",
+      "type": "java.util.Map<java.lang.String,com.gema.autentication.security.config.ApplicationConfig>",
+      "sourceType": "com.gema.autentication.security.config.SecurityConfigOauth"
+    }
+  ],
+  "hints": []
+}
