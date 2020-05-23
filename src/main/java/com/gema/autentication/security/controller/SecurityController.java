@@ -18,7 +18,6 @@ import com.gema.autentication.security.service.SecurityValidateOauth;
 
 @RestController
 @RequestMapping("/oauth")
-@CrossOrigin(methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT}, origins = "*")
 public class SecurityController {
 	@Autowired
 	private SecurityJwtAdapter securityJwtAdapter;
